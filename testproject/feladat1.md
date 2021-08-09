@@ -8,17 +8,17 @@ Feladatod, hogy automatizáld selenium webdriverrel az alábbi funkcionalitások
 
 Az ellenőrzésekhez __NEM__ kell teszt keretrendszert használnod (mint pl a pytest) viszont fontos, hogy `assert` összehasonlításokat használj!
 
-Helyes kitöltés esete:
+* Helyes kitöltés esete:
     * a: 99
     * b: 12
     * Eredmény: 222
 
-Nem számokkal történő kitöltés:
+* Nem számokkal történő kitöltés:
     * a: kiskutya
     * b: 12
     * Eredmény: NaN
 
-Üres kitöltés:
+* Üres kitöltés:
     * a: <üres>
     * b: <üres>
     * Eredmény: NaN   

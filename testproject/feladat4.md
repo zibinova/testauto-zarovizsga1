@@ -8,15 +8,15 @@ Feladatod, hogy automatizáld selenium webdriverrel a Email mező app tesztelés
 
 A cél az email validáció tesztelése:
 
-Helyes kitöltés esete:
+* Helyes kitöltés esete:
     * email: teszt@elek.hu
     * Nincs validációs hibazüzenet
 
-Helytelen:
+* Helytelen:
     * email: teszt@
     * Please enter a part following '@'. 'teszt@' is incomplete.
 
-Üres:
+* Üres:
     * email: <üres>
     * b: <üres>
     * Please fill out this field.
