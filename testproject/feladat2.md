@@ -13,7 +13,7 @@ Az ellenőrzésekhez __NEM__ kell teszt keretrendszert használnod (mint pl a py
 
 
 ### A megoldás beadása
-* a megoldásokat a `testproject` mappába tedd, `masodik.py`
+* a megoldásokat a `testproject` mappába tedd, `tts4.py`
 * a lokálisan kidolgozott megoldásokat előbb commitold `git commit`
 * majd ne felejtsd el `git push` segítségével a Github szerverre is felküldeni
 * ne felejtsd el, hogy pontokat ér a szintaktikai legjobb praktikák megvalósítása (`ctlr`+`alt`+`l`)
