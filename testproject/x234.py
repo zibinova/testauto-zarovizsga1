@@ -13,8 +13,7 @@ driver.get(URL)
 a_field = driver.find_element_by_id("a")
 b_field = driver.find_element_by_id("b")
 calc_button = driver.find_element_by_id("submit")
-result = driver.find_element_by_xpath("//span[@id='result']").get_attribute("value")
-print(result)
+
 
 # test data:
 
@@ -32,17 +31,20 @@ def calc(a, b):
     a_field.send_keys(a)
     b_field.send_keys(b)
     calc_button.click()
-    res = (a + b) * 2
-    return res
 
 
 # TC 1: valid input data test:
 
-
-assert calc(test_data_valid[0], test_data_valid[1]) == result
+calc(test_data_valid[0], test_data_valid[1])
+result = driver.find_element_by_id("result").text
+assert result == "222"
 
 # TC 2: invalid input data test:
-assert calc(test_data_invalid[0], test_data_valid[1]) == result
+calc(test_data_invalid[0], test_data_invalid[1])
+result = driver.find_element_by_id("result").text
+assert result == "NaN"
 
 # TC 3: blank input data test:
-assert calc(test_blank[0], test_blank[1]) == result
+calc(test_blank[0], test_blank[1])
+result = driver.find_element_by_id("result").text
+assert result == "NaN"
