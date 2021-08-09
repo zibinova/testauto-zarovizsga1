@@ -9,19 +9,19 @@ Feladatod, hogy automatizáld selenium webdriverrel az alábbi funkcionalitások
 Az ellenőrzésekhez __NEM__ kell teszt keretrendszert használnod (mint pl a pytest) viszont fontos, hogy `assert` összehasonlításokat használj!
 
 Helyes kitöltés esete:
-    a: 99
-    b: 12
-    Eredmény: 222
+    * a: 99
+    * b: 12
+    * Eredmény: 222
 
 Nem számokkal történő kitöltés:
-    a: kiskutya
-    b: 12
-    Eredmény: NaN
+    * a: kiskutya
+    * b: 12
+    * Eredmény: NaN
 
 Üres kitöltés:
-    a: <üres>
-    b: <üres>
-    Eredmény: NaN   
+    * a: <üres>
+    * b: <üres>
+    * Eredmény: NaN   
 
 ### A megoldás beadása
 * a megoldásokat a `testproject` mappába tedd, `x234.py`

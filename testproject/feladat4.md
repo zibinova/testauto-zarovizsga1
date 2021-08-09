@@ -9,17 +9,17 @@ Feladatod, hogy automatizáld selenium webdriverrel a Email mező app tesztelés
 A cél az email validáció tesztelése:
 
 Helyes kitöltés esete:
-    email: teszt@elek.hu
-    Nincs validációs hibazüzenet
+    * email: teszt@elek.hu
+    * Nincs validációs hibazüzenet
 
-Helytelen1:
-    email: teszt@
-    Please enter a part following '@'. 'teszt@' is incomplete.
+Helytelen:
+    * email: teszt@
+    * Please enter a part following '@'. 'teszt@' is incomplete.
 
 Üres:
-    email: <üres>
-    b: <üres>
-    Please fill out this field.
+    * email: <üres>
+    * b: <üres>
+    * Please fill out this field.
 
 Az ellenőrzésekhez __NEM__ kell teszt keretrendszert használnod (mint pl a pytest) viszont fontos, hogy `assert` összehasonlításokat használj!
 
