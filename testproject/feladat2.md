@@ -2,7 +2,7 @@
 
 Készíts egy Python python applikációt (egy darab python file) ami selenium-ot használ. 
 
-A program töltse be a pénzfeldobás app-ot az [https://black-moss-0a0440e03.azurestaticapps.net/tts4.html](https://blue-rock-04e841a03.azurestaticapps.net/tts4.html) oldalról.
+A program töltse be a pénzfeldobás app-ot az [https://black-moss-0a0440e03.azurestaticapps.net/tts4.html](https://black-moss-0a0440e03.azurestaticapps.net/tts4.html) oldalról.
 
 Feladatod, hogy automatizáld selenium webdriverrel a pénzfeldobás app tesztelését.
 
