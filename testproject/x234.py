@@ -14,7 +14,6 @@ a_field = driver.find_element_by_id("a")
 b_field = driver.find_element_by_id("b")
 calc_button = driver.find_element_by_id("submit")
 
-
 # test data:
 
 test_data_valid = [99, 12]
