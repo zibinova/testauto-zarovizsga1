@@ -47,3 +47,6 @@ assert result == "NaN"
 calc(test_blank[0], test_blank[1])
 result = driver.find_element_by_id("result").text
 assert result == "NaN"
+
+
+# 15 pont

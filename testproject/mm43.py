@@ -44,3 +44,6 @@ fill_mail(blank_email)
 validation_error = driver.find_element_by_class_name("validation-error")
 expected_message = "Please fill out this field."
 assert validation_error.text == expected_message
+
+
+# 14 pont
